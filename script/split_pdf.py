@@ -1,3 +1,6 @@
+"""
+The program is a Python script that uses the PyPDF2 library to split a PDF file into two separate PDF files.
+"""
 import PyPDF2
 
 def split_pdf(input_path, output_path1, output_path2, split_page):
