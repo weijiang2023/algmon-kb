@@ -16,3 +16,11 @@ Visual ChatGPT如何处理图像生成任务？，Visual ChatGPT使用Prompt Man
 Visual ChatGPT如何处理图像编辑任务？，Visual ChatGPT使用Prompt Manager来调用适当的视觉基础模型，例如物体检测模型和风格转换模型，以编辑图像并生成满足用户需求的结果。
 Visual ChatGPT如何处理多模态输入？，Visual ChatGPT可以支持多模态输入，不仅限于语言和图像。它可以使用Prompt Manager来管理和协调不同的视觉基础模型，以执行复杂的多模态任务。
 Visual ChatGPT支持哪些图像任务？，Visual ChatGPT支持基于文本提示生成图像、基于深度信息生成图像、基于图像的风格转换、基于图像的物体检测、基于图像的图像生成、基于图像的图像翻译、基于图像的图像描述、基于图像的图像分类和基于图像的边缘检测。
+Visual ChatGPT的模型结构是基于哪些模型的组合？，Visual ChatGPT的模型结构是基于ChatGPT模型和不同的视觉基础模型的组合。
+ChatGPT模型的作用是什么？，ChatGPT模型是一种大型语言模型，具有出色的对话能力和推理能力，用于处理语言输入和输出。
+Prompt Manager的作用是什么？，Prompt Manager用于将视觉信号转换为语言，以帮助ChatGPT模型理解。它还负责处理不同视觉基础模型的输入输出格式，并记录信息转换的过程。
+Prompt Manager是如何将视觉信号转换为语言的？，Prompt Manager通过将不同的视觉信息（如图像、深度图像和掩码矩阵）转换为语言格式，帮助ChatGPT模型理解。
+Visual ChatGPT是如何处理复杂的视觉问题或视觉编辑指令的？，Visual ChatGPT通过协作多个AI模型，使用Prompt Manager将复杂的视觉问题或视觉编辑指令转化为一系列相关的视觉基础模型的执行链。每个模型按照指定的顺序处理输入并生成输出，最终得到满足用户需求的结果。
+Visual ChatGPT如何协作多个AI模型来处理复杂的视觉问题？，Visual ChatGPT使用Prompt Manager作为调度器，根据ChatGPT模型的需求和执行链的逻辑，协调多个视觉基础模型的执行。Prompt Manager提供视觉格式类型，并记录信息转换的过程，以确保正确地调用和处理不同的视觉基础模型。
+Visual ChatGPT如何处理来自不同模态的输入，例如图像和语言？，Visual ChatGPT使用Prompt Manager将来自不同模态的输入转换为统一的语言格式，以便ChatGPT模型能够理解和处理。
+Visual ChatGPT如何处理来自不同模态的输出，例如图像和语言？，Visual ChatGPT使用Prompt Manager将ChatGPT模型生成的语言输出转换为适当的视觉格式，以便提供满足用户需求的图像输出。
