@@ -1,5 +1,7 @@
 # 算法妈妈垂类知识库构建
-## 论文列表 (./unstructured)
+
+## 人工智能AIGC领域
+### 论文列表 (./KB/unstructured)
 
 0. 图像分割
 1. 1 Yolo综述
@@ -13,7 +15,7 @@
 9. 9 目标检测
 10. 10 AIGC
 
-## 对应问答对列表 (./structured)
+### 对应问答对列表 (./KB/structured)
 
 0. 0 (done)
 1. 1 (done)
