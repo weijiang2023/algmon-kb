@@ -1,2 +1,18 @@
 ﻿question,answer
 为什么知识问答数据库对垂类大模型很重要？,因为这能很好地满足客户的知识问答需求
+什么是Visual ChatGPT？，Visual ChatGPT是一种系统，它结合了不同的视觉基础模型，使用户能够与ChatGPT进行交互，并发送和接收语言和图像。
+Visual ChatGPT能够处理哪些类型的输入？，Visual ChatGPT可以处理语言和图像的输入。
+Visual ChatGPT如何处理复杂的视觉任务？，Visual ChatGPT通过Prompt Manager来管理和协调不同的视觉基础模型，以执行复杂的视觉任务。
+Visual ChatGPT如何与用户进行交互？，Visual ChatGPT通过Prompt Manager接收用户的指令，并根据需要调用适当的视觉基础模型来生成结果。
+Visual ChatGPT是否支持多模态输入，如视频或声音？，是的，Visual ChatGPT可以支持多模态输入，不仅限于语言和图像。
+Visual ChatGPT的贡献是什么？，Visual ChatGPT的贡献包括将ChatGPT和视觉基础模型结合起来，使ChatGPT能够处理复杂的视觉任务，并设计了Prompt Manager来支持模型之间的交互和组合。
+Visual ChatGPT如何处理图像生成任务？，Visual ChatGPT使用Prompt Manager来调用适当的视觉基础模型，例如深度估计模型和风格转换模型，以生成满足用户需求的图像。
+Visual ChatGPT如何处理图像理解任务？，Visual ChatGPT使用Prompt Manager将图像信息转换为语言格式，以帮助ChatGPT理解图像，并调用适当的视觉基础模型来提供图像的描述或执行其他图像理解任务。
+Visual ChatGPT的Prompt Manager有什么功能？，Prompt Manager具有以下功能：1、明确告知ChatGPT每个Visual Foundation Model的能力和输入输出格式。2、将不同的视觉信息转换为语言格式，以帮助ChatGPT理解。3、处理不同Visual Foundation Models的历史记录、优先级和冲突。
+Visual ChatGPT支持哪些视觉基础模型？，Visual ChatGPT支持多种视觉基础模型，包括深度估计模型、风格转换模型、物体检测模型等。
+Visual ChatGPT支持哪些图像生成任务？，Visual ChatGPT支持基于文本提示生成图像、基于深度信息生成图像、基于图像的风格转换、基于图像的物体检测、基于图像的图像生成、基于图像的图像翻译、基于图像的图像描述、基于图像的图像分类和基于图像的边缘检测。
+Visual ChatGPT如何处理图像理解任务？，Visual ChatGPT使用Prompt Manager将图像信息转换为语言格式，以帮助ChatGPT理解图像，并调用适当的视觉基础模型来提供图像的描述或执行其他图像理解任务。
+Visual ChatGPT如何处理图像生成任务？，Visual ChatGPT使用Prompt Manager来调用适当的视觉基础模型，例如深度估计模型和风格转换模型，以生成满足用户需求的图像
+Visual ChatGPT如何处理图像编辑任务？，Visual ChatGPT使用Prompt Manager来调用适当的视觉基础模型，例如物体检测模型和风格转换模型，以编辑图像并生成满足用户需求的结果。
+Visual ChatGPT如何处理多模态输入？，Visual ChatGPT可以支持多模态输入，不仅限于语言和图像。它可以使用Prompt Manager来管理和协调不同的视觉基础模型，以执行复杂的多模态任务。
+Visual ChatGPT支持哪些图像任务？，Visual ChatGPT支持基于文本提示生成图像、基于深度信息生成图像、基于图像的风格转换、基于图像的物体检测、基于图像的图像生成、基于图像的图像翻译、基于图像的图像描述、基于图像的图像分类和基于图像的边缘检测。
