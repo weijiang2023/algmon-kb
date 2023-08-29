@@ -12,7 +12,7 @@ def check_csv_encoding(file_path):
         if encoding != "UTF-8-SIG":
             print(file)
 
-base_path = "../kb/structured/"
+base_path = "../kb/structured/domain.math.grade.5.上/"
 cnt = 0
 files = []
 for i in range(0, 16):
