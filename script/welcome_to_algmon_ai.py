@@ -1,8 +1,11 @@
+'''
+欢迎使用算法妈妈提供的垂类智能聊天API，我们的API同时兼容openai
+'''
 import os
 import openai
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_base = os.getenv("OPENAI_API_BASE")
+openai.api_key = os.getenv("OPENAI_API_KEY") # 需先在终端设置环境变量 OPENAI_API_KEY
+openai.api_base = os.getenv("OPENAI_API_BASE") # 需先在终端设置环境变量 OPENAI_API_BASE
 
 req = "请简单介绍算法妈妈这家公司"
 completion = openai.ChatCompletion.create(
