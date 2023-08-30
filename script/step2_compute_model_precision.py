@@ -17,14 +17,24 @@ def return_precision_para(csv_file):
     return df['满意度'].sum(), df[df['机器回答通过与否'] == '通过'].shape[0], df.shape[0]
 
 files = []
-file_0 = "../kb/structured/domain.math.grade.5.上/练习1.qa.csv"
-file_1 = "../kb/structured/domain.math.grade.5.上/练习2.qa.csv"
-file_2 = "../kb/structured/domain.math.grade.5.上/练习3.qa.csv"
-file_3 = "../kb/structured/domain.math.grade.5.上/练习4.qa.csv"
-files.append(file_0)
+file_1 = "../kb/structured/domain.math.grade.5.上/练习1.qa.csv"
+file_2 = "../kb/structured/domain.math.grade.5.上/练习2.qa.csv"
+file_3 = "../kb/structured/domain.math.grade.5.上/练习3.qa.csv"
+file_4 = "../kb/structured/domain.math.grade.5.上/练习4.qa.csv"
+#
+file_17 = "../kb/structured/domain.math.grade.5.上/练习17.qa.csv"
+file_18 = "../kb/structured/domain.math.grade.5.上/练习18.qa.csv"
+file_19 = "../kb/structured/domain.math.grade.5.上/练习19.qa.csv"
+file_20 = "../kb/structured/domain.math.grade.5.上/练习20.qa.csv"
+
 files.append(file_1)
 files.append(file_2)
 files.append(file_3)
+files.append(file_4)
+files.append(file_17)
+files.append(file_18)
+files.append(file_19)
+files.append(file_20)
 
 score = 0.0
 num_pass = 0
@@ -32,6 +42,7 @@ num_total = 0
 
 for file in files:
     (x, y, z) = return_precision_para(file)
+    print(file, z)
     score += x
     num_pass += y
     num_total += z
