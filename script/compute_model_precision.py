@@ -20,9 +20,11 @@ files = []
 file_0 = "../kb/structured/domain.math.grade.5.上/练习1.qa.csv"
 file_1 = "../kb/structured/domain.math.grade.5.上/练习2.qa.csv"
 file_2 = "../kb/structured/domain.math.grade.5.上/练习3.qa.csv"
+file_3 = "../kb/structured/domain.math.grade.5.上/练习4.qa.csv"
 files.append(file_0)
 files.append(file_1)
 files.append(file_2)
+files.append(file_3)
 
 score = 0.0
 num_pass = 0
