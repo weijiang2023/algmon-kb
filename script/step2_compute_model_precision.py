@@ -16,7 +16,12 @@ def return_precision_para(csv_file):
     df = pd.read_csv(csv_file)
     return df['满意度'].sum(), df[df['机器回答通过与否'] == '通过'].shape[0], df.shape[0]
 
+def return_todo_para(csv_file):
+    df = pd.read_csv(csv_file)
+    return df[df['机器回答通过与否'] == '未验证'].shape[0]
+
 files = []
+todo_files = []
 file_1 = "../kb/structured/domain.math.grade.5.上/练习1.qa.csv"
 file_2 = "../kb/structured/domain.math.grade.5.上/练习2.qa.csv"
 file_3 = "../kb/structured/domain.math.grade.5.上/练习3.qa.csv"
@@ -49,14 +54,14 @@ files.append(file_3)
 files.append(file_4)
 files.append(file_5)
 files.append(file_6)
-#files.append(file_7)
-#files.append(file_8)
+
+
 files.append(file_9)
 files.append(file_10)
-#files.append(file_11)
-#files.append(file_12)
-#files.append(file_13)
-#files.append(file_14)
+
+files.append(file_12)
+files.append(file_13)
+files.append(file_14)
 files.append(file_15)
 files.append(file_16)
 files.append(file_17)
@@ -64,10 +69,22 @@ files.append(file_18)
 files.append(file_19)
 files.append(file_20)
 files.append(file_21)
-#files.append(file_22)
-#files.append(file_23)
-#files.append(file_24)
-#files.append(file_25)
+files.append(file_24)
+files.append(file_25)
+
+todo_files.append(file_7)
+todo_files.append(file_8)
+todo_files.append(file_11)
+todo_files.append(file_22)
+todo_files.append(file_23)
+
+todo_num = 0
+for file in todo_files:
+    z = return_todo_para(file)
+    print(file, z)
+    todo_num += z
+
+print("***** *****")
 
 score = 0.0
 num_pass = 0
@@ -86,3 +103,4 @@ print("total run:", num_total)
 print("sum score:", score)
 print("avg score:", score / num_pass)
 print("pass rate:", num_pass / num_total)
+print("未验证:", todo_num)
