@@ -8,8 +8,8 @@ def convert_csv_encoding(input_file, output_file, input_encoding, output_encodin
     df.to_csv(output_file, encoding=output_encoding, index=False)
 
 # Example usage
-input_file = '../kb/structured/domain.math.grade.5.上/OLD/练习19.qa.csv'
-output_file = '../kb/structured/domain.math.grade.5.上/练习19.qa.csv'
+input_file = '../kb/structured/domain.math.grade.5.上/练习23.qa.csv'
+output_file = '../kb/structured/domain.math.grade.5.上/NEW/练习23.qa.csv'
 input_encoding = 'GB2312'
 output_encoding = 'UTF-8'
 
