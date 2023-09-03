@@ -1,3 +1,6 @@
+'''
+# RENAME files
+'''
 import os
 import os
 
@@ -10,5 +13,5 @@ def rename_files(base_path):
             new_name = str(i) + '.png'
             os.rename(os.path.join(folder_path, file_name), os.path.join(folder_path, new_name))
 
-base_path = "../kb/unstructured/grade.5.math.五年级数学人教版上/core"
+base_path = "../kb/unstructured/domain.math.grade.6.下/core"
 rename_files(base_path)
