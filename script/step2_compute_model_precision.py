@@ -54,11 +54,11 @@ files.append(file_3)
 files.append(file_4)
 files.append(file_5)
 files.append(file_6)
-
-
+files.append(file_7)
+files.append(file_8)
 files.append(file_9)
 files.append(file_10)
-
+files.append(file_11)
 files.append(file_12)
 files.append(file_13)
 files.append(file_14)
@@ -69,22 +69,19 @@ files.append(file_18)
 files.append(file_19)
 files.append(file_20)
 files.append(file_21)
+files.append(file_22)
+files.append(file_23)
 files.append(file_24)
 files.append(file_25)
 
-todo_files.append(file_7)
-todo_files.append(file_8)
-todo_files.append(file_11)
-todo_files.append(file_22)
-todo_files.append(file_23)
-
+print("***** todo files *****")
 todo_num = 0
 for file in todo_files:
     z = return_todo_para(file)
     print(file, z)
     todo_num += z
 
-print("***** *****")
+print("***** done files *****")
 
 score = 0.0
 num_pass = 0
