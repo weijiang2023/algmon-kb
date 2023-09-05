@@ -38,15 +38,17 @@ file_22 = "../kb/structured/domain.math.grade.5.上/练习22.qa.csv"
 file_23 = "../kb/structured/domain.math.grade.5.上/练习23.qa.csv"
 file_24 = "../kb/structured/domain.math.grade.5.上/练习24.qa.csv"
 file_25 = "../kb/structured/domain.math.grade.5.上/练习25.qa.csv"
-'''
 files.append(file_1)
 files.append(file_2)
 files.append(file_3)
 files.append(file_4)
 files.append(file_5)
 files.append(file_6)
+files.append(file_7)
+files.append(file_8)
 files.append(file_9)
 files.append(file_10)
+files.append(file_11)
 files.append(file_12)
 files.append(file_13)
 files.append(file_14)
@@ -57,14 +59,10 @@ files.append(file_18)
 files.append(file_19)
 files.append(file_20)
 files.append(file_21)
-files.append(file_24)
-files.append(file_25)
-'''
-files.append(file_7)
-files.append(file_8)
-files.append(file_11)
 files.append(file_22)
 files.append(file_23)
+files.append(file_24)
+files.append(file_25)
 
 for file in files:
     encoding = detect_csv_encoding(file)
