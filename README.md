@@ -6,7 +6,10 @@
 * 欢迎扫描下方二维码AI熊猫Rita和她聊天与问答
 * 欢迎使用Github PR进行贡献，详情可查看项目对应Open Issues
 * 具体任务和职责：我们需要您不断向AI熊猫Rita进行提问，并评估其返回结果的满意度及更新相应表格
-* 具体例子可查看：https://github.com/weijiang2023/algmon-kb/tree/main/kb/structured/domain.math.grade.5.%E4%B8%8A
+
+## 一个简单例子
+* 见下，知识库工程师为我们构建了10条有效问答对，并合理评估了熊猫Rita返回的答案是否通过
+* https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.math.grade.5.%E4%B8%8A/%E7%BB%83%E4%B9%A01.qa.csv
 
 ## 重要目录
 * ./kb 知识库 包含结构化数据（问答对）与非结构化数据
