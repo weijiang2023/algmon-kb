@@ -15,7 +15,7 @@
 * 欢迎使用Github PR进行贡献，详情可查看项目对应Open Issues
 
 ## 具体任务和职责
-* 我们需要您不断向AI熊猫Rita进行提问，并评估其返回结果的满意度进而更新相应评估表格
+* 我们需要您不断向AI熊猫Rita进行提问，如直接提问及自动化测试等方式，评估其返回结果的满意度进而更新相应评估表格，以优化我们的垂类大模型Reward Model算法
 * 一个简单例子请见下，工程师构建了10条有效问答对，并评估了垂类大模型返回的答案是否通过
 * https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.教培/domain.math.grade.5.上/练习1.qa.csv
 
