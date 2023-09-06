@@ -19,6 +19,7 @@
 * 一个简单例子请见下，工程师构建了10条有效问答对，并评估了垂类大模型返回的答案是否通过
 * https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.教培/domain.math.grade.5.上/练习1.qa.csv
 ![](./algmon.llm.training.png)
+* 扫码加熊猫好朋友通过以后使用“bot ”作为前缀即可开始测试
 
 ## 重要目录
 * ./kb 知识库 包含结构化数据（问答对）与非结构化数据
