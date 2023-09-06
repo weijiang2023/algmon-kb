@@ -17,7 +17,7 @@
 ## 具体任务和职责
 * 我们需要您不断向AI熊猫Rita进行提问，并评估其返回结果的满意度进而更新相应评估表格
 * 一个简单例子请见下，工程师构建了10条有效问答对，并评估了垂类大模型返回的答案是否通过
-* https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.math.grade.5.%E4%B8%8A/%E7%BB%83%E4%B9%A01.qa.csv
+* https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.教培/domain.math.grade.5.上/练习1.qa.csv
 
 ## 重要目录
 * ./kb 知识库 包含结构化数据（问答对）与非结构化数据
