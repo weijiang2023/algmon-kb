@@ -1,7 +1,7 @@
 '''
-POC
-使用算法妈妈垂类智能聊天服务API
-做（问，答，批改）黄金三元组(question, answer, judgement) Demo
+POC Demo
+使用算法妈妈智能API去批改问题的答案
+黄金三元组框架，三元组为（问题，答案，批改）(question, answer, judgement) 
 '''
 import openai
 import pandas as pd
