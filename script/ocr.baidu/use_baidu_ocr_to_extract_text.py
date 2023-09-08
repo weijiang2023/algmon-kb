@@ -12,9 +12,9 @@ API_KEY = ''
 SECRET_KEY = ''
 
 '''
-APP_ID = '38852702'
-API_KEY = 'SlFceeKCiasvUBVsNviKgeso'
-SECRET_KEY = 'fD7O27ywBLYxGhcoXHdoPRbAG3OtNYOm'
+APP_ID = ''
+API_KEY = ''
+SECRET_KEY = ''
 '''
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
