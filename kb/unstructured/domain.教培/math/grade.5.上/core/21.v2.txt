@@ -1,0 +1,45 @@
+练习五
+果盘用数对 \left( 3 , 2 \right)  表示。你能照样子用
+4321
+数对表示其他几个水果的位置吗?
+12345
+表中的“山”用数对 \left( 4 , 5 \right)  表示。
+识字表
+(1)像上面这样说一说“春”“雪”“花”“土”
+山石田土沙
+的位置。
+5432
+日月星火水
+(2)数对 \left( 4 , 2 \right)  和 \left( 2 , 4 \right)  分别表示哪
+雨雪雷风电
+个汉字的位置?
+春夏秋冬天
+枝叶花竹芽
+12345
+\left( 9 , 8 \right)  这一格已经涂好了,你能接着涂一涂吗?
+\left( 9 , 8 \right)  
+\left( 8 , + \infty \right)  
+\left( 1 2 , 1 6 \right)  
+\left( 5 , 1 0 \right)  
+8765432109876543
+\left( 1 3 , b 0 \right)  
+\{ 6 , 1 0 \right)  
+\left( 1 2 , b 0 \right)  )
+\left( 7 , 1 0 \right)  
+\left( 1 , 4 0 \right)  
+\left( 6 , 9 \right)  
+1 2 , 9 \right)  
+\left( 4 , 6 \right)  
+\left( 1 4 , 6 \right)  
+\left( 4 , 5 \right)  
+\left( 1 4 , 5 \right)  
+\left( 5 , 4 \right)  
+\left( 1 3 , 4 \right)  
+\left( 6 , 3 \right)  
+\left( 1 2 , 3 \right)  
+\left( 7 , 2 \right)  
+\left( 1 , 2 , 2 \right)  
+\left( 8 , 1 \right)  
+1234567891011121314151617
+\left( 9 , 1 \right)  
+\left( 4 0 , 1 \right)  

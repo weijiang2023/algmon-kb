@@ -1,0 +1,6 @@
+PWD /Users/yinuo/Projects/algmon-kb/script/res.out/formula.ocr.samples/questions
+INPUT /usr/local/texlive/2021/texmf.cnf
+INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/yinuo/Projects/algmon-kb/script/res.out/formula.ocr.samples/questions/q1.tex
+OUTPUT /Users/yinuo/Projects/algmon-kb/script/res.out/formula.ocr.samples/questions/q1.log

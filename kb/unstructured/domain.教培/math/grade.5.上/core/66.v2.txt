@@ -1,0 +1,31 @@
+练习十四
+下面哪些式子是方程?
+x + 3 . 6 = 7  
+a \times 2 < 2 . 4  
+3 - 1 . 4 = 1 . 8  
+3 \div b  
+8 = x = 2  
+8 . 2 \div 2 > 3  
+4 \times 2 . 4 = 9 . 8  
+5 y = 1 5  
+2 x + 3 y = 9  
+看图列方程。
+xkg
+0.5kg2.5kg
+x支
+x支
+x支
+36支
+用方程表示下面的数量关系。
+(1)小明x岁,爸爸40岁,两人相差28岁。
+(2)姐姐身高152cm,弟弟身高ycm,弟弟比姐姐矮5cm
+(3)小芳每天跑skm,一个星期共跑了2.8km。
+(4)一罐糖果共a颗,平均分给25个小朋友,每人得3颗,正好分完。
+要保持天平平衡,右边应该添加什么物品?
+如果 \alpha = g  ,根据等式的性质填空。
+a \pm 3 = b + \left( - \infty \right)  
+\left( - a \right) = b - 9  
+a \times 1 . 5 = b \times \left(  
+a \rightarrow \left( - \infty \right) = b \Leftrightarrow r  
+\left( - a \right) = b - c  
+a ^ { \frac { \pi } { 2 } } , \left( - 1 \right) = b ^ { c } \ne 0  

@@ -1,0 +1,42 @@
+练习十九
+1.分别用小数和分数表示下面每个图中涂色部分的大小
+f ^ { \prime } \left( x \right) = \frac { \left( \right) } { \left( \right) }  
+\left( \right) = \frac { \left( \right) } { \left( \right) }  
+f ^ { \prime } \left( x \right) = \frac { \left( \right) } { \left( \right) }  
+2.(1)0.8里面有8个()分之一,表示()分之(),化成分数是
+\frac { \left( \right) } { \left( \right) }  
+(2)0.05里面有5个()分之一,化成分数是
+\frac { \left( \right) } { \left( \right) }  
+(3)0.007里面有7个()分之一,化成分数是
+\frac { \left( \right) } { \left( \right) }  
+(4)0.36里面有36个()分之一,化成分数是
+\frac { \left( \right) } { \left( \right) }  
+3.把小数和相等的分数用线连起来。
+0.6
+0.03
+0.45
+3.25
+0.18
+\frac { 1 3 } { 4 }  
+\frac { 3 } { 1 0 0 }  
+- \frac { 3 } { 5 }  
+\frac { 9 } { 2 0 }  
+- \frac { 9 } { 5 0 }  
+猎豹的速度是小汽车速度的
+多少倍?小汽车的速度是猎
+20米/秒
+31米/秒
+豹速度的几分之几?
+5.把下面的分数化成小数(除不尽的保留两位小数)。
+\frac { 3 1 } { 1 0 0 }   \frac { 2 } { 2 5 }   \frac { 7 } { 3 0 } 
+- \frac { 4 } { 9 }  
+- \frac { 5 } { 6 } -  
+\frac { 1 1 } { 5 0 }  
+\frac { 2 3 } { 2 0 }  
+在里填上适当的小数或分数。
+0.250.3
+0.8
+\frac { 1 } { 8 }  
+- \frac { 1 } { 2 }  
+\frac { 5 } { 8 }  
+- \frac { 3 } { 4 } 

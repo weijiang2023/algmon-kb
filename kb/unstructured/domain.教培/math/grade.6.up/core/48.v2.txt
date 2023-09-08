@@ -1,0 +1,23 @@
+联系比和除法、分数的关系,想一想:在比中有什么样的规律?
+6 : 8 = 6 \div 8 = \frac { 6 } { 8 } = \frac { 3 } { 4 }  
+1 2 : 1 6 = 1 2 \div 1 6 = \frac { 1 2 } { 1 6 } = \frac { 3 } { 4 }  
+我们先利用比和除法的关系来研究。
+8 \div 8 = \left( 6 \times 2 \right) \div \left( 8 \times 2 \right) = 1 2 \div 1 6  
+8 : 8 = \left( 6 \times 2 \right) : \left( 8 \times 2 \right) = 1 2 : 1 6  
+8 : 8 = \left( 6 \div 2 \right) : \left( 8 \div 2 \right) = 3 : 4  
+8 \div 8 = \left( 6 \div 2 \right) \div \left( 8 \div 2 \right) = 3 \div 4  
+你能根据比和分数的关系研究比中的规律吗?
+比的前项和后项同时乘或除以相同的数(0除外),比值不变。
+这叫作比的基本性质。
+根据比的基本性质,可以把比化成最简单的整数比。
+1
+(1)神舟五号搭载了两面联合国旗帜,一面长15cm,宽10cm(前面
+展示过),另一面长180cm,宽120cm。这两面联合国旗帜长和
+宽的最简单的整数比分别是多少?
+1 5 : 1 0 : \sqrt [ 3 ] { \left( 5 \times 5 \right) } \cdot \left( \sqrt { 4 0 } \div \sqrt { 5 } \right) ;  
+想:5是15和10的什么数?
+a - a = 9 : 2  
+为什么要除以5?
+1 8 0 : 1 2 0 = \sqrt { \left( 1 8 0 \div 1 \right) \times \left( 1 2 0 \div 1 \right) . 
+=():()
+48

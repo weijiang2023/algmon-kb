@@ -1,0 +1,24 @@
+3
+盒药共12片,每次吃半片,每天吃3次。这盒药可以吃几天?
+我先算这盒药
+我先算每天吃
+可以吃几次。
+多少片
+\frac { 1 } { 2 } \times 3 = \frac { 3 } { 2 }  (片)
+1 2 \div \frac { 1 } { 2 } = 1 2 \times \frac { 2 } { 1 } = 2 4  (次)
+1 2 \div \frac { 3 } { 2 } = 1 2 \times \frac { 2 } { 3 } = 8  (天)
+2 4 \div 3 = 8  (天)
+也可以用综合算式表示以上
+过程,自己试着计算一下。
+1 2 \div \left( \frac { 1 } { 2 } \times 3 \right)  
+1 2 \div \frac { 1 } { 2 } \div 3  
+做一做
+计算下面各题。
+\frac { 5 } { 6 } \times \frac { 1 } { 2 5 } \times \frac { 8 } { 7 } 
+\frac { 3 } { 1 0 } \div \frac { 9 } { 2 0 } \div 2  
+\delta + \frac { 5 } { 3 6 } \div \frac { 5 } { 1 8 }  
+\frac { 5 } { 1 4 } \div \frac { 3 } { 2 8 } \times \frac { 3 } { 2 8 }  
+2
+一块梯形的玻璃,上底、下底和高分别是 \frac { 3 } { 5 } m  、 \frac { 4 } { 5 } m  、 \frac { 3 } { 4 } m  。这块玻璃的
+面积是多少?
+32

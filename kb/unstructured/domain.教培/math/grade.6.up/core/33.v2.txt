@@ -1,0 +1,33 @@
+练习七
+根据乘法算式写出两道除法
+f \left( \right) =  
+(
+\frac { 3 } { 4 } \times 5 = \frac { 1 5 } { 4 }  
+\frac { 3 } { 7 } \times \frac { 2 } { 5 } = \frac { 6 } { 3 5 }  
+\left\{ \begin{aligned} & f \left( \right) = \left( \right) \\ \end{aligned} \right.  
+\frac { 4 } { 5 } m  
+小芳将长的丝带剪成同样长的8段,每段丝带有多长?
+填一填。
+\frac { 9 } { 8 } -   \frac { 9 } { 8 } -   \frac { 6 } { 7 }   \frac { 9 } { 8 } -   \frac { 3 } { 5 }   \frac { 9 } { 8 } -   \frac { 6 } { 7 } 
+\div 3 =  
+\frac { 8 } { 9 }   \frac { 5 } { 7 }   \frac { 8 } { 9 }   \frac { 5 } { 7 }   \frac { 8 } { 9 }   \frac { 4 } { 5 }   \frac { 8 } { 9 } 
+\div 3 =  
+计算下面各题。
+\frac { 1 } { 4 } \div \frac { 3 } { 5 }  
+\frac { 4 } { 5 } \div \frac { 8 } { 1 5 }  
+\frac { 1 } { 3 } \div \frac { 3 } { 4 }  
+\frac { 5 } { 1 4 } \div \frac { 1 0 } { 2 1 }  
+\frac { 2 } { 3 } \div \frac { 1 4 } { 1 5 }  
+\frac { 2 } { 7 } \div \frac { 1 6 } { 3 5 }  
+\frac { 8 } { 2 7 } \div \frac { 2 } { 9 }  
+\frac { 4 } { 1 5 } \div \frac { 2 8 } { 4 5 }  
+\frac { 3 } { 4 } L  
+\frac { 1 } { 4 } L  
+橙汁分装在容量是的小瓶里,可以装满几瓶?
+某饮料厂使用一种自动检测仪检测饮料瓶是否有缺陷,检测一个瓶子所用
+\frac { 1 } { 2 5 }  
+的时间为秒。1分钟可以检测多少个瓶子?
+- \frac { 1 } { 2 4 } 
+我们平时看到的电影画面实际上是由许多连续拍摄的照片以每秒一张
+的速度连续播放的。请你算一算:半秒可以播放多少张照片?1分钟呢?
+33

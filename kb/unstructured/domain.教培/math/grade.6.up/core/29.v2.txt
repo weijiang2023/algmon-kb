@@ -1,0 +1,23 @@
+2.分数除法
+\frac { 4 } { 5 }  
+张纸的平均分成2份,每份是这张纸的几分之几?
+折一折,算一算。
+\frac { 4 } { 5 }  
+平均分成2份,就是把
+\frac { 1 } { 5 }  
+4个平均分成2份,每份
+是2 \frac { 1 } { 5 }  ,就 \frac { 2 } { 5 } 
+\frac { 4 } { 5 } \div 2 = \frac { 4 \div 2 } { 5 } = \frac { 2 } { 5 }  
+\frac { 4 } { 5 }  
+把平均分成2份,
+每份就是的 \frac { 1 } { 2 }  ,
+\frac { 4 } { 5 } \times \frac { 1 } { 2 }  
+也就是。
+\frac { 4 } { 5 } \div 2 = \frac { 4 } { 5 } \times \frac { 1 } { 2 } = \frac { 4 } { 1 0 } = \frac { 2 } { 5 }  
+\frac { 4 } { 5 }  
+把这张纸的平均分成3份,每份是这张纸的几分之
+\frac { 4 } { 5 } \div 3 = - 
+根据上面的折纸实验和算式,你能发现什么规律?
+做一做
+计算下面各题。
+\frac { 9 } { 1 0 } \div 3 = \frac { \left( \right) } { \left( \right) } \times \frac { \left( \right) } { \left( \right) } = \frac { \left( \right) } { \left( \right) }   \frac { 3 } { 8 } \div 2 = \frac { \left( \right) } { \left( \right) } \left( \frac { \left( \right) } { \left( \right) } = \frac { \left( \right) } { \left( \right) } 

@@ -16,12 +16,17 @@
 * 欢迎使用Github PR进行贡献，详情可查看项目对应Open Issues
 
 ## 具体任务和职责
-* 我们需要您不断向AI熊猫Rita创建问题并提问，如直接提问及自动化测试等方式，评估其返回结果的满意度进而更新相应评估表格，以优化我们的垂类大模型Reward Model及PPO算法（如下图红色框图所示）
+* 我们需要您不断向AI熊猫Rita创建问题并提问，如直接提问及使用Python进行自动化测试等方式，评估其返回结果的满意度进而更新相应评估表格，以优化我们的垂类大模型Reward Model及PPO算法（如下图红色框图所示）
 * 一个简单例子请见下，工程师构建了10条有效问答对，并评估了垂类大模型返回的答案是否通过
 * https://github.com/weijiang2023/algmon-kb/blob/main/kb/structured/domain.教培/domain.math.grade.5.上/练习1.qa.csv
 * 扫码加熊猫好朋友通过以后使用“bot ”作为前缀即可开始测试
+* 目前问题集出自人教版教科书，权威教辅材料等
 ![](./algmon.llm.training.png)
 * RLHF for Large Language Model (LLM)
+
+## 如何马上开始贡献工作？
+* 扫码熊猫并加好友
+* 提交PR以解决某个运营端Open Issue 详见：https://github.com/weijiang2023/algmon-kb/issues
 
 ## 重要目录
 * ./kb 知识库 包含结构化数据（问答对）与非结构化数据

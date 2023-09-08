@@ -1,0 +1,26 @@
+分数混合运算的顺序和整数混合运算的顺序相同。你会计算这两个算
+式吗?
+\left( \frac { 4 } { 5 } + \frac { 1 } { 2 } \right) \times 2  
+\frac { 4 } { 5 } \times 2 + \frac { 1 } { 2 } \times 2  
+我们已经学过整数和小数的乘法运算律,这些运算律在分数运算中还
+适用吗?
+计算下面每组的两个算式,看看它们有什么关系。
+\frac { 1 } { 2 } \times \frac { 1 } { 3 } \left( \frac { 1 } { 3 } \times \frac { 1 } { 2 }  
+从这些算式中,你
+发现了什么规律?
+\frac { 1 } { 4 } \times \frac { 2 } { 3 } \right) \times \frac { 3 } { 5 } \left( \frac { 1 } { 4 } \times \left( \frac { 2 } { 3 } \times \frac { 3 } { 5 }  
+\left( \frac { 1 } { 2 } + \frac { 1 } { 3 } \right) \times \frac { 1 } { 5 }  0 \frac { 1 } { 2 } \times \frac { 1 } { 5 } + \frac { 1 } { 3 } \times \frac { 1 } { 5 } 
+根据以上计算可以发现,整数乘法的交换律、结合律和分配律,对于分数
+乘法也适用。应用乘法的运算律,有时可以使计算简便。
+⑦
+\frac { 3 } { 5 } \times \left( \frac { 1 } { 6 } \times 5 \right)  
+\left( \frac { 5 } { 6 } + \frac { 1 } { 4 } \right) \times 1 2  
+= \frac { 3 } { 5 } \times \left( 5 \times \frac { 1 } { 6 } \right)  
+= \frac { 5 } { 6 } \times 1 2 + \frac { 1 } { 4 } \times 1 2  
+做一做
+用简便方法计算下面各题,并说一说运用了什么运算律。
+\frac { 2 } { 3 } \times \frac { 1 } { 4 } \times 3  
+\left( \frac { 8 } { 9 } + \frac { 4 } { 2 7 } \right) \times 2 7  
+8 7 \times \frac { 3 } { 8 6 }  
+\frac { 1 } { 5 0 } t , 4 2 
+奶牛场每头奶牛平均日产牛奶头奶牛100天可产牛奶多少吨?

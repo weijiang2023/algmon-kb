@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.8)  8 SEP 2023 20:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/yinuo/Projects/algmon-kb/script/res.out/formula.ocr.samples/questions/q1.tex
+(/Users/yinuo/Projects/algmon-kb/script/res.out/formula.ocr.samples/questions/q1.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>)
+! Emergency stop.
+<*> ...es.out/formula.ocr.samples/questions/q1.tex
+                                                  
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 478994
+ 669 string characters out of 5858184
+ 283044 words of memory out of 5000000
+ 17602 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,15p,115b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

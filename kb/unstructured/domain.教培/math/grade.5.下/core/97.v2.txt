@@ -1,0 +1,32 @@
+1 - \frac { 1 1 } { 2 0 } - \frac { 2 } { 5 }  
+= 1 - \left( \frac { 1 1 } { 2 0 } + \frac { 8 } { 2 0 } ;   A ^ { \prime } = 1 - \left( \frac { \frac { 2 } { 1 0 } } { 8 } + \frac { \frac { 5 } { 4 } } { 8 } + \frac { 9 } { 8 }   = 1 - \left( \frac { 1 1 } { 2 0 } + \frac { 8 } { 2 0 } ; 
+= \frac { 2 0 } { 2 0 } - \frac { 1 1 } { 2 0 } - \frac { 8 } { 2 0 }  
+= \frac { 9 } { 2 0 } - \frac { 8 } { 2 0 }  
+= 1 - \frac { 1 9 } { 2 0 }  
+= \frac { 1 } { 2 0 }  
+= \frac { 1 } { 2 0 }  
+我们的方法有
+我用小括号了
+什么不同呢?
+你能说一说分数加减混合
+运算的运算顺序吗?
+2
+下面每组算式的左右两边有什么样的关系?
+\frac { 3 } { 7 } + \frac { 2 } { 5 } f \left( \right) \frac { 2 } { 5 } + \frac { 3 } { 7 }  
+\frac { 2 } { 3 } + \frac { 1 } { 4 } \right) + \frac { 3 } { 4 } \left( \right) \frac { 2 } { 3 } + \left( \frac { 1 } { 4 } + \frac { 5 } { 4 }  
+整数加法的交换律、结合律对分数加法同样适用。利用运算定律可以使一
+些分数计算变得简便。
+算算看
+\frac { 5 } { 6 } + \frac { 1 } { 1 2 } + \frac { 7 } { 1 2 }  
+\frac { 1 } { 3 } + \frac { 2 } { 7 } + \frac { 1 } { 5 } + \frac { 2 } { 3 }  
+做一做
+1.计算。
+\frac { 5 } { 6 } - \frac { 1 } { 2 } + \frac { 1 } { 3 }  
+\frac { 7 } { 8 } - \frac { 5 } { 1 2 } + \frac { 1 } { 6 }  
+\frac { 1 } { 2 } + \frac { 1 } { 4 } - \frac { 1 } { 6 }  
+\frac { 9 } { 4 } - \frac { 1 } { 4 } + \frac { 1 } { 5 } 
+\frac { 5 } { 6 } - \left( \frac { 1 } { 2 } + \frac { 1 } { 3 } \right)   \frac { 7 } { 8 } - \left( \frac { 5 } { 1 2 } + \frac { 1 } { 6 } \right)   \frac { 1 } { 2 } + \left( \frac { 1 } { 4 } - \frac { 1 } { 6 } \right)   \frac { 9 } { 4 } - \left( \frac { 1 } { 4 } + \frac { 1 } { 5 } \right) 
+2.用简便方法计算下面各题。
+\frac { 2 } { 5 } + \frac { 1 } { 3 } + \frac { 3 } { 5 }  
+\frac { 1 } { 4 } + \frac { 1 } { 3 } + \frac { 1 } { 4 } + \frac { 2 } { 3 }  
+\frac { 9 } { 7 } + \frac { 1 } { 8 } + \frac { 3 } { 8 } + \frac { 5 } { 7 }  
