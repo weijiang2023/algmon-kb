@@ -1,4 +1,6 @@
+from natsort import natsorted
 import pandas as pd
+import os
 
 def compute_model_precision(csv_file):
     df = pd.read_csv(csv_file)
@@ -9,9 +11,6 @@ def compute_model_precision(csv_file):
     avg_satisfaction = df['满意度'].mean()
     return pass_rate, avg_satisfaction
 
-#pass_rate, avg_satisfaction = compute_model_precision(csv_file_1)
-#print(pass_rate, avg_satisfaction)
-
 def return_precision_para(csv_file):
     df = pd.read_csv(csv_file)
     return df['满意度'].sum(), df[df['机器回答通过与否'] == '通过'].shape[0], df.shape[0]
@@ -20,79 +19,39 @@ def return_todo_para(csv_file):
     df = pd.read_csv(csv_file)
     return df[df['机器回答通过与否'] == '未验证'].shape[0]
 
+base_paths = []
+base_path_0 = "../kb/structured/domain.教培/domain.math.grade.5.up/"
+base_path_1 = "../kb/structured/domain.教培/domain.math.grade.5.down/"
+base_paths.append(base_path_0)
+base_paths.append(base_path_1)
+
 files = []
-todo_files = []
-file_1 = "../kb/structured/domain.math.grade.5.上/练习1.qa.csv"
-file_2 = "../kb/structured/domain.math.grade.5.上/练习2.qa.csv"
-file_3 = "../kb/structured/domain.math.grade.5.上/练习3.qa.csv"
-file_4 = "../kb/structured/domain.math.grade.5.上/练习4.qa.csv"
-file_5 = "../kb/structured/domain.math.grade.5.上/练习5.qa.csv"
-file_6 = "../kb/structured/domain.math.grade.5.上/练习6.qa.csv"
-file_7 = "../kb/structured/domain.math.grade.5.上/练习7.qa.csv"
-file_8 = "../kb/structured/domain.math.grade.5.上/练习8.qa.csv"
-file_9 = "../kb/structured/domain.math.grade.5.上/练习9.qa.csv"
-file_10 = "../kb/structured/domain.math.grade.5.上/练习10.qa.csv"
-file_11 = "../kb/structured/domain.math.grade.5.上/练习11.qa.csv"
-file_12 = "../kb/structured/domain.math.grade.5.上/练习12.qa.csv"
-file_13 = "../kb/structured/domain.math.grade.5.上/练习13.qa.csv"
-file_14 = "../kb/structured/domain.math.grade.5.上/练习14.qa.csv"
-file_15 = "../kb/structured/domain.math.grade.5.上/练习15.qa.csv"
-file_16 = "../kb/structured/domain.math.grade.5.上/练习16.qa.csv"
-file_17 = "../kb/structured/domain.math.grade.5.上/练习17.qa.csv"
-file_18 = "../kb/structured/domain.math.grade.5.上/练习18.qa.csv"
-file_19 = "../kb/structured/domain.math.grade.5.上/练习19.qa.csv"
-file_20 = "../kb/structured/domain.math.grade.5.上/练习20.qa.csv"
-file_21 = "../kb/structured/domain.math.grade.5.上/练习21.qa.csv"
-file_22 = "../kb/structured/domain.math.grade.5.上/练习22.qa.csv"
-file_23 = "../kb/structured/domain.math.grade.5.上/练习23.qa.csv"
-file_24 = "../kb/structured/domain.math.grade.5.上/练习24.qa.csv"
-file_25 = "../kb/structured/domain.math.grade.5.上/练习25.qa.csv"
+for base_path in base_paths:
+    # List all files in the directory
+    file_list = os.listdir(base_path)
 
-files.append(file_1)
-files.append(file_2)
-files.append(file_3)
-files.append(file_4)
-files.append(file_5)
-files.append(file_6)
-files.append(file_7)
-files.append(file_8)
-files.append(file_9)
-files.append(file_10)
-files.append(file_11)
-files.append(file_12)
-files.append(file_13)
-files.append(file_14)
-files.append(file_15)
-files.append(file_16)
-files.append(file_17)
-files.append(file_18)
-files.append(file_19)
-files.append(file_20)
-files.append(file_21)
-files.append(file_22)
-files.append(file_23)
-files.append(file_24)
-files.append(file_25)
-
-print("***** todo files *****")
-todo_num = 0
-for file in todo_files:
-    z = return_todo_para(file)
-    print(file, z)
-    todo_num += z
-
-print("***** done files *****")
+    # Sort the file list
+    file_list = natsorted(file_list)
+    for file in file_list:
+        #print(file)
+        if file.startswith("ex"):
+            files.append(base_path + file)
 
 score = 0.0
 num_pass = 0
 num_total = 0
+num_todo_files = 0
 
 for file in files:
+    #print(file)
     (x, y, z) = return_precision_para(file)
-    print(file, z)
-    score += x
-    num_pass += y
-    num_total += z
+    if x == 6 and y == 1 and z == 1:
+        num_todo_files += 1
+    else:
+        print(file, x, y, z)
+        score += x
+        num_pass += y
+        num_total += z
 
 print("Model Precision")
 print("total pass:", num_pass)
@@ -100,4 +59,4 @@ print("total run:", num_total)
 print("sum score:", score)
 print("avg score:", score / num_pass)
 print("pass rate:", num_pass / num_total)
-print("未验证:", todo_num)
+print("num todo files:", num_todo_files)
