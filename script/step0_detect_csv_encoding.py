@@ -15,7 +15,7 @@ def detect_csv_encoding(file_path):
 
 # Example usage
 files = []
-base_path = "../kb/structured/domain.教培/domain.math.grade.5.down/"
+base_path = "../kb/structured/domain.教培/domain.math.grade.5.down/TODO/"
 
 # List all files in the directory
 file_list = os.listdir(base_path)
