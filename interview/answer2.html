@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        请打开控制台看结果
+    </div>
+    <script>
+        //定义多模态大模型
+        class Multimdal_models {
+            image_processing(image) {
+                Thought_process = "在图片上进行思考：分析图像特征，识别物体。";
+                return Thought_process;
+            }
+
+            data_processing(data) {
+                Thought_process = "在数值上进行思考：进行数值计算和分析。"
+                return Thought_process
+            }
+
+            text_processing(text) {
+                Thought_process = "在文本上进行思考：分析文本内容，提取关键信息。"
+                return Thought_process
+            }
+
+            symbol_handling(symbol) {
+                Thought_process = "在符号上进行思考：进行符号运算和推理。"
+                return Thought_process
+            }
+        }
+        //定义大脑
+        class Brain {
+            constructor(models) {
+                this.models = models;
+            }
+
+            ponder(enter, Multimodal) {
+                if (Multimodal == "图片") {
+                    Thought_process = this.models.image_processing(enter)
+                } else if (Multimodal == "数值") {
+                    Thought_process = this.models.data_processing(enter)
+                } else if (Multimodal == "文本") {
+                    Thought_process = this.models.text_processing(enter)
+                } else if (Multimodal == "符号") {
+                    Thought_process = this.models.symbol_handling(enter)
+                } else {
+                    Thought_process = "未知模态"
+                }
+                console.log("大脑思考过程", Thought_process);
+                return Thought_process;
+            }
+
+        }
+        //定义四肢ABCD
+        class A {
+            picture_action(Thought_process) {
+                Action = "使用A来实现图片处理：" + Thought_process;
+                console.log(Action);
+            }
+            text_changes(Thought_process) {
+                Action = "使用A来实现文本处理：" + Thought_process;
+                console.log(Action);
+            }
+            value_change(Thought_process) {
+                Action = "使用A来实现数值处理：" + Thought_process;
+                console.log(Action);
+            }
+            symbol_operations(Thought_process) {
+                Action = "使用A来实现符号处理：" + Thought_process;
+                console.log(Action);
+            }
+        }
+
+        class B {
+            picture_action(Thought_process) {
+                Action = "使用B来实现图片处理：" + Thought_process;
+                console.log(Action);
+            }
+            text_changes(Thought_process) {
+                Action = "使用B来实现文本处理：" + Thought_process;
+                console.log(Action);
+            }
+            value_change(Thought_process) {
+                Action = "使用B来实现数值处理：" + Thought_process;
+                console.log(Action);
+            }
+            symbol_operations(Thought_process) {
+                Action = "使用B来实现符号处理：" + Thought_process;
+                console.log(Action);
+            }
+        }
+
+        class C {
+            picture_action(Thought_process) {
+                Action = "使用C来实现图片处理：" + Thought_process;
+                console.log(Action);
+            }
+            text_changes(Thought_process) {
+                Action = "使用C来实现文本处理：" + Thought_process;
+                console.log(Action);
+            }
+            value_change(Thought_process) {
+                Action = "使用C来实现数值处理：" + Thought_process;
+                console.log(Action);
+            }
+            symbol_operations(Thought_process) {
+                Action = "使用C来实现符号处理：" + Thought_process;
+                console.log(Action);
+            }
+        }
+
+        class D {
+            picture_action(Thought_process) {
+                Action = "使用D来实现图片处理：" + Thought_process;
+                console.log(Action);
+            }
+            text_changes(Thought_process) {
+                Action = "使用D来实现文本处理：" + Thought_process;
+                console.log(Action);
+            }
+            value_change(Thought_process) {
+                Action = "使用D来实现数值处理：" + Thought_process;
+                console.log(Action);
+            }
+            symbol_operations(Thought_process) {
+                Action = "使用D来实现符号处理：" + Thought_process;
+                console.log(Action);
+            }
+        }
+
+        //创建多模态大模型、大脑和四肢对象
+        var My_multimodal_models = new Multimdal_models();
+        var My_brain = new Brain(My_multimodal_models);
+        var My_A = new A();
+        var My_B = new B();
+        var My_C = new C();
+        var My_D = new D();
+
+        //定义数据、数据类型和场景
+        var input = 111;
+        var Multimodal = "数值"
+        var scene = "1";
+
+        //定义思考过程和动作
+        var Thought_process = My_brain.ponder(input, Multimodal)
+        var Action = "";
+
+        //根据场景选择A,B,C,D四种情况之一来实现思考过程
+        if (scene == '1') {
+            if (Multimodal == '图片') {
+                My_A.picture_action(Thought_process)
+            }
+            if (Multimodal == '文本') {
+                My_A.text_changes(Thought_process)
+            }
+            if (Multimodal == '数值') {
+                My_A.value_change(Thought_process)
+            }
+            if (Multimodal == '符号') {
+                My_A.symbol_operations(Thought_process)
+            }
+        } else if (scene == '2') {
+            if (Multimodal == '图片') {
+                My_B.picture_action(Thought_process)
+            }
+            if (Multimodal == '文本') {
+                My_B.text_changes(Thought_process)
+            }
+            if (Multimodal == '数值') {
+                My_B.value_change(Thought_process)
+            }
+            if (Multimodal == '符号') {
+                My_B.symbol_operations(Thought_process)
+            }
+        } else if (scene == '3') {
+            if (Multimodal == '图片') {
+                My_C.picture_action(Thought_process)
+            }
+            if (Multimodal == '文本') {
+                My_C.text_changes(Thought_process)
+            }
+            if (Multimodal == '数值') {
+                My_C.value_change(Thought_process)
+            }
+            if (Multimodal == '符号') {
+                My_C.symbol_operations(Thought_process)
+            }
+        } else if (scene == '4') {
+            if (Multimodal == '图片') {
+                My_D.picture_action(Thought_process)
+            }
+            if (Multimodal == '文本') {
+                My_D.text_changes(Thought_process)
+            }
+            if (Multimodal == '数值') {
+                My_D.value_change(Thought_process)
+            }
+            if (Multimodal == '符号') {
+                My_D.symbol_operations(Thought_process)
+            }
+        }
+    </script>
+</body>
+
+</html>
