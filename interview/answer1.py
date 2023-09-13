@@ -1,5 +1,7 @@
 """
 候选人：颜同学
+分数：6分
+结果：通过
 """
 class Multimodal_models:
     def image_processing(self, image):
