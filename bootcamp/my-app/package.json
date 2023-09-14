@@ -22,7 +22,6 @@
     "next": "13.4.19",
     "next-cloudinary": "^4.21.0",
     "postcss": "8.4.29",
-    "prisma": "^5.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
@@ -31,6 +30,7 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
-    "daisyui": "^3.7.3"
+    "daisyui": "^3.7.3",
+    "prisma": "^5.3.0"
   }
 }
