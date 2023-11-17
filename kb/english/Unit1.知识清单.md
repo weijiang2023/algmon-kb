@@ -9,7 +9,7 @@
 * than
 * every
 * during
-* coutry
+* country
 * hobby
 * more
 
