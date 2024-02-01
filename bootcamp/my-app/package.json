@@ -18,9 +18,11 @@
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
     "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "fast-sort": "^3.4.0",
+    "mysql2": "^3.6.1",
     "next": "13.4.19",
     "next-cloudinary": "^4.21.0",
     "postcss": "8.4.29",
@@ -35,6 +37,7 @@
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
     "daisyui": "^3.7.3",
+    "encoding": "^0.1.13",
     "prisma": "^5.3.0"
   }
 }

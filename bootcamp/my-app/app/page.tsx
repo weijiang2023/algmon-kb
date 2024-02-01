@@ -1,3 +1,23 @@
+/*
+import Image from "next/image";
+import scene from "@/public/images/scene.png";
+
+export default async function Home() {
+  return (
+    <main className="relative h-screen">
+      <Image 
+        src="https://bit.ly/react-cover" 
+        alt="cover"
+        fill
+        className="object-cover"
+        sizes="100vw"
+        quality={100}
+        priority/>
+    </main>
+  )
+}
+*/
+
 import Link from 'next/link'
 import Image from 'next/image'
 import ProductCard from './components/ProductCard'

@@ -6,7 +6,7 @@ export async function GET(
     request: NextRequest,
     { params }: { params: { id: string}}) {
     const user = await prisma.user.findUnique({
-            where: {id: parseInt(params.id)}
+            where: {id: params.id}
     });
 
     if (!user)
@@ -27,7 +27,7 @@ export async function PUT(
         });
     
     const user = await prisma.user.findUnique({
-        where: {id: parseInt(params.id) }
+        where: {id: params.id }
     });
     
     if (!user)
@@ -52,7 +52,7 @@ export async function DELETE(
     { params }: { params: { id: string} }
 ) {
     const user = await prisma.user.findUnique({
-        where: { id: parseInt(params.id)}
+        where: { id: params.id}
     })
 
     if (!user)
