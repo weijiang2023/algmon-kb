@@ -1,0 +1,33 @@
+import torch
+from peft import PeftModel, PeftConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+# Specify the identifier for the pre-trained Peft model
+peft_model_id = "Ronal999/mistral_b_finance_finetuned_test"
+
+# Load the configuration for the Peft model
+config = PeftConfig.from_pretrained(peft_model_id)
+
+# Load the base model for Causal Language Modeling with specified settings
+# - Use AutoModelForCausalLM to load the model.
+# - Set return_dict=True to enable returning model outputs as dictionaries.
+# - Enable 4-bit weight quantization with load_in_4bit=True.
+# - Set device_map='auto' to automatically allocate the model on available devices.
+model = AutoModelForCausalLM.from_pretrained(
+    config.base_model_name_or_path,
+    offload_folder="/Users/yinuo/Projects/offload_models",
+    return_dict=True,
+    load_in_4bit=False,
+    device_map='auto'
+)
+
+# Load the tokenizer associated with the base model
+tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
+
+# Load the PeftModel, which applies the Peft (Perturbed Embeddings for Few-shot Text Classification) method
+# to the base model, using the specified pre-trained Peft model identifier
+model = PeftModel.from_pretrained(model, peft_model_id)
+
+result = get_completion(
+    query="Will capital gains affect my tax bracket?", model=model, tokenizer=tokenizer)
+print(result)
