@@ -1,0 +1,89 @@
+{
+    "products": [
+        {
+            "id": "prod_01HNM9XKTNVAJRZSXVPP2Y2Q58",
+            "created_at": "2024-02-02T07:00:54.733Z",
+            "updated_at": "2024-02-02T07:01:41.516Z",
+            "deleted_at": null,
+            "title": "Look 0017",
+            "subtitle": null,
+            "description": null,
+            "handle": "look-0017",
+            "is_giftcard": false,
+            "status": "published",
+            "thumbnail": "http://localhost:9000/uploads/1706857301456-0017.png",
+            "weight": null,
+            "length": null,
+            "height": null,
+            "width": null,
+            "hs_code": null,
+            "origin_country": null,
+            "mid_code": null,
+            "material": null,
+            "type_id": null,
+            "discountable": true,
+            "external_id": null,
+            "metadata": null,
+            "collection": {
+                "id": "pcol_01HNJR0B3R51KM0G7BJC4ZJH7K",
+                "created_at": "2024-02-01T16:28:35.314Z",
+                "updated_at": "2024-02-01T16:28:35.314Z",
+                "deleted_at": null,
+                "title": "Issey Miyake Mens Fall 2024",
+                "handle": "issey-miyake-mens-fall-2024",
+                "metadata": {}
+            },
+            "collection_id": "pcol_01HNJR0B3R51KM0G7BJC4ZJH7K",
+            "images": [
+                {
+                    "id": "img_01HNM9Z1GXYNNFKGJAMZ7D0T2V",
+                    "created_at": "2024-02-02T07:01:41.516Z",
+                    "updated_at": "2024-02-02T07:01:41.516Z",
+                    "deleted_at": null,
+                    "url": "http://localhost:9000/uploads/1706857301456-0017.png",
+                    "metadata": null
+                }
+            ],
+            "options": [],
+            "profiles": [
+                {
+                    "id": "sp_01HNDT48SFPGACB9YQ90Y64G6K",
+                    "created_at": "2024-01-30T18:29:28.961Z",
+                    "updated_at": "2024-01-30T18:29:28.961Z",
+                    "deleted_at": null,
+                    "name": "Default Shipping Profile",
+                    "type": "default",
+                    "metadata": null
+                }
+            ],
+            "profile": {
+                "id": "sp_01HNDT48SFPGACB9YQ90Y64G6K",
+                "created_at": "2024-01-30T18:29:28.961Z",
+                "updated_at": "2024-01-30T18:29:28.961Z",
+                "deleted_at": null,
+                "name": "Default Shipping Profile",
+                "type": "default",
+                "metadata": null
+            },
+            "profile_id": "sp_01HNDT48SFPGACB9YQ90Y64G6K",
+            "sales_channels": [
+                {
+                    "id": "sc_01HNDT48TDQH061N1M6GNKC8JA",
+                    "created_at": "2024-01-30T18:29:28.961Z",
+                    "updated_at": "2024-01-30T18:29:28.961Z",
+                    "deleted_at": null,
+                    "name": "Default Sales Channel",
+                    "description": "Created by Medusa",
+                    "is_disabled": false,
+                    "metadata": null
+                }
+            ],
+            "tags": [],
+            "type": null,
+            "variants": []
+        }
+    ],
+    "count": 1,
+    "offset": 0,
+    "limit": 50
+}
